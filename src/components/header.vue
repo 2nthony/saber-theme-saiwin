@@ -7,7 +7,7 @@
         </h1>
       </div>
       <div class="flex flex-1 justify-end">
-        <header-nav :nav="$themeConfig.nav" />
+        <header-nav v-if="$themeConfig.nav" :nav="$themeConfig.nav" />
       </div>
     </div>
   </header>
