@@ -1,6 +1,6 @@
-import Root from './src/root.vue'
+import Root from './root.vue'
 import 'saika/dist/saika.css'
-import './src/styles/main.css'
+import './styles/main.css'
 
 export default ({ setRootComponent }) => {
   setRootComponent(Root)
