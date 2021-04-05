@@ -1,7 +1,6 @@
 /** @type {import('saber').SaberConfig} */
 const config = {
-  // theme: '../src',
-  theme: 'tailsaw',
+  theme: '../src',
   siteConfig: {
     title: `EvilLT`,
     author: 'JC (evillt)',
