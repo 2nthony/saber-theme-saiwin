@@ -1,0 +1,11 @@
+@import './variables.css';
+@import './tweak.css';
+
+::selection {
+  background: var(--selection);
+  color: var(--foreground);
+}
+
+details > summary {
+  outline: none;
+}

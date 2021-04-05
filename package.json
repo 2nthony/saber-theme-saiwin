@@ -1,0 +1,45 @@
+{
+  "name": "saber-theme-saiwin",
+  "version": "1.0.0",
+  "description": "A starter template for creating a minimal, elegant and customizable blog in Saber.",
+  "scripts": {
+    "dev:example": "saber example",
+    "build": "vue-compile src -o .",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "**/*.{js,css,vue}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evillt/saber-theme-saiwin.git"
+  },
+  "keywords": [
+    "saber",
+    "saber-theme",
+    "theme",
+    "tailwindcss",
+    "windicss",
+    "clean",
+    "simple"
+  ],
+  "author": "evillt (ijoec123@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evillt/saber-theme-saiwin/issues"
+  },
+  "homepage": "https://github.com/evillt/saber-theme-saiwin#readme",
+  "dependencies": {
+    "saber-plugin-prismjs": "^0.2.4",
+    "saber-plugin-query-posts": "^0.4.6",
+    "saika": "2.13.7",
+    "vue-windicss-preprocess": "^2.2.0"
+  },
+  "devDependencies": {
+    "saber": "^0.11.7",
+    "vue-compile": "^0.6.2",
+    "vue-loader": "^15.9.6",
+    "windicss": "^2.5.11"
+  }
+}
