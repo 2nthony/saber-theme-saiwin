@@ -1,14 +1,14 @@
 <template>
   <footer class="text-center mt-12 text-sm my-4">
-    <p>
+    <div>
       2018 ~ {{ new Date().getFullYear() }}
       {{ $siteConfig.author }}
-    </p>
+    </div>
 
-    <p
+    <div
       class="mt-2"
       v-if="$themeConfig.footnote"
       v-html="$themeConfig.footnote"
-    ></p>
+    ></div>
   </footer>
 </template>
